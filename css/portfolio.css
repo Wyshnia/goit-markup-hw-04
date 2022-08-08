@@ -83,6 +83,7 @@ img {
     letter-spacing: 0.03em;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 93px;
 
 }
 
@@ -104,9 +105,9 @@ img {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--main-title-color);
-    margin-right: 93px;
+    color: var(--main-title-color); 
 }
+
 
 .header-list {
     display: flex;
@@ -129,19 +130,27 @@ img {
     padding-bottom: 32px;
 }
 
-.header-item-link:hover,
-.header-item-link:focus {
-    color: var(--accent-color);
-}
-
-.header-link {
+.icon-envelop,
+.icon-smartphone {
     margin-right: 10px;
+    fill: #757575;
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-item-contacts:hover,
+.header-item-contacts:focus {
+    color: #2196F3;
+}
+
+.header-item-contacts:hover .icon-envelop,
+.header-item-contacts:focus .icon-smartphone {
     fill: #2196F3;
 }
+
+.header-item-contacts:hover .icon-smartphone,
+.header-item-contacts:focus .icon-smartphone {
+    fill: #2196F3;
+}
+
 
 .header-contact {
     display: flex;
@@ -159,15 +168,6 @@ img {
     color: var(--text-color);
 }
 
-.header-item-contacts:hover,
-.header-item-contacts:focus {
-    color: var(--accent-color);
-}
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
 /*--FILTER--*/
 
@@ -228,6 +228,7 @@ img {
 
 .card {
     border: 1px solid #EEEEEE;
+
 }
 
 .works-title {
