@@ -123,6 +123,12 @@ color: var(--second-title-color);
     margin-right: 50px;
 }
 
+.header-item-link:hover,
+.header-item-link:focus {
+    color: #2196F3;
+
+}
+
 .header-item-link {
 font-weight: 500;
 font-size: 14px;
@@ -131,6 +137,8 @@ letter-spacing: 0.02em;
 color: var(--second-title-color);
 padding-top: 32px;
 padding-bottom: 32px;
+
+
 
 }
 .header-contact {
