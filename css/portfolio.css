@@ -200,11 +200,10 @@ img {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    cursor: pointer;
     padding: 6px 22px;
+    background: #F5F4FA;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: var(--btn-color)
+    border: 0px solid #F5F4FA;
     
 }
 
@@ -212,7 +211,8 @@ img {
 .works-filter-btn:focus {
     color: #FFFFFF;
     background-color: #2196F3;
-    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
 }
 
 /*--WORKS--*/
@@ -220,8 +220,6 @@ img {
 .works-examples-list {
     display: flex;
     flex-wrap: wrap;
-    
-
     margin-left: 0 auto;
     padding: 0;
     margin-left: calc(-1 * var(--w-e-gap));
@@ -238,8 +236,12 @@ img {
 
 .card {
     border: 1px solid #EEEEEE;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+}
 
+.card:hover,
+.card:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .works-title {

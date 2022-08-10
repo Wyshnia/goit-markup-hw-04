@@ -234,7 +234,9 @@ border-radius: 4px;
 
 .hero-btn:hover,
 .hero-btn:focus {
-color:#757575
+background-color: #757575;
+color: #FFFFFF
+
 }
 /*--features--*/
 
